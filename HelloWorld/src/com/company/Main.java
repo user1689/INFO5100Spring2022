@@ -1,4 +1,4 @@
-package edu.northeastern;
+package com.company;
 
 public class Main {
 
