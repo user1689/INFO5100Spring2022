@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BasicDataStructure/BasicDataStructure.iml" filepath="$PROJECT_DIR$/BasicDataStructure/BasicDataStructure.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/Spring2022-Info5100.iml" filepath="$PROJECT_DIR$/.idea/Spring2022-Info5100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/INFO5100Spring2022.iml" filepath="$PROJECT_DIR$/.idea/INFO5100Spring2022.iml" />
     </modules>
   </component>
 </project>
