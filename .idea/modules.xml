@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/BasicDataStructure/BasicDataStructure.iml" filepath="$PROJECT_DIR$/BasicDataStructure/BasicDataStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/INFO5100Spring2022.iml" filepath="$PROJECT_DIR$/.idea/INFO5100Spring2022.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoopStatements/LoopStatements.iml" filepath="$PROJECT_DIR$/LoopStatements/LoopStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleClassExample/SimpleClassExample.iml" filepath="$PROJECT_DIR$/SimpleClassExample/SimpleClassExample.iml" />
     </modules>
   </component>
 </project>
