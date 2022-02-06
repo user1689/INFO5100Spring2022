@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BasicDataStructure/BasicDataStructure.iml" filepath="$PROJECT_DIR$/BasicDataStructure/BasicDataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class/BasicDataStructure/BasicDataStructure.iml" filepath="$PROJECT_DIR$/Class/BasicDataStructure/BasicDataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class/Class.iml" filepath="$PROJECT_DIR$/Class/Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ComparatorExample/ComparatorExample.iml" filepath="$PROJECT_DIR$/ComparatorExample/ComparatorExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/INFO5100Spring2022.iml" filepath="$PROJECT_DIR$/.idea/INFO5100Spring2022.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LoopStatements/LoopStatements.iml" filepath="$PROJECT_DIR$/LoopStatements/LoopStatements.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SimpleClassExample/SimpleClassExample.iml" filepath="$PROJECT_DIR$/SimpleClassExample/SimpleClassExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class/LoopStatements/LoopStatements.iml" filepath="$PROJECT_DIR$/Class/LoopStatements/LoopStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class/SimpleClassExample/SimpleClassExample.iml" filepath="$PROJECT_DIR$/Class/SimpleClassExample/SimpleClassExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/assignment1/assignment1.iml" filepath="$PROJECT_DIR$/assignment1/assignment1.iml" />
     </modules>
   </component>
