@@ -43,8 +43,8 @@ public class Main {
 
     }
 
-    public static void printCar(Car[] cars) {
-        for (Car cc : cars) {
+    public static void printCar(Car[] animals) {
+        for (Car cc : animals) {
             System.out.println(cc.getName());
         }
     }

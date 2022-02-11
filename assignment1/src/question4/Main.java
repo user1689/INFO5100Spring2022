@@ -25,7 +25,7 @@ public class Main {
 
     public static void main(String[] args) {
         String s1 = "aabcdka";
-        String s2 = "bdcaakA";
+        String s2 = "bdcaaka";
         boolean ans = checkAnagrams(s1, s2);
         System.out.println(ans);
     }

@@ -4,11 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Class/BasicDataStructure/BasicDataStructure.iml" filepath="$PROJECT_DIR$/Class/BasicDataStructure/BasicDataStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/Class/Class.iml" filepath="$PROJECT_DIR$/Class/Class.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ComparatorExample/ComparatorExample.iml" filepath="$PROJECT_DIR$/ComparatorExample/ComparatorExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class/ComparatorExample/ComparatorExample.iml" filepath="$PROJECT_DIR$/Class/ComparatorExample/ComparatorExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/INFO5100Spring2022.iml" filepath="$PROJECT_DIR$/.idea/INFO5100Spring2022.iml" />
       <module fileurl="file://$PROJECT_DIR$/Class/LoopStatements/LoopStatements.iml" filepath="$PROJECT_DIR$/Class/LoopStatements/LoopStatements.iml" />
       <module fileurl="file://$PROJECT_DIR$/Class/SimpleClassExample/SimpleClassExample.iml" filepath="$PROJECT_DIR$/Class/SimpleClassExample/SimpleClassExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/assignment1/assignment1.iml" filepath="$PROJECT_DIR$/assignment1/assignment1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment2/assignment2.iml" filepath="$PROJECT_DIR$/assignment2/assignment2.iml" />
     </modules>
   </component>
 </project>
