@@ -25,6 +25,7 @@ public class Main {
                }
            }
         });
+//        Arrays.sort(players, (a, b) -> (a.getScore() - b.getScore()));
         for (Player p : players) {
             System.out.println(p.getName() + " score is " + p.getScore());
         }
