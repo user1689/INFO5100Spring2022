@@ -1,7 +1,6 @@
 package question3;
 
 
-
 public class shapeTester {
     public static void main(String[] args) {
         Shape s = new Shape();
@@ -11,8 +10,11 @@ public class shapeTester {
         r.computePerimeter();
         c.computeArea();
         c.computePerimeter();
-//        r.display();
-//        c.display();
-//        s.display();
+
+        System.out.println("This is Rectangle: its length is " + r.getLength() +" and its width is " + r.getWidth() );
+        r.display();
+        System.out.println("This is Circle: its radius is " + c.getRadius());
+        c.display();
+        s.display();
     }
 }

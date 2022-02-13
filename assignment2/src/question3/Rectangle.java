@@ -1,7 +1,5 @@
 package question3;
 
-import java.awt.*;
-
 public class Rectangle extends Shape {
 
     private double length;
@@ -23,8 +21,28 @@ public class Rectangle extends Shape {
     }
 
     @Override
-    public void display(Graphics g){
-        g.drawRect (10, 10, (int)this.length, (int)this.width);
+    protected void display() {
+        for (int i = 0; i < this.length; i++) {
+            for (int j = 0; j < this.width; j++) {
+                System.out.print("*");
+            }
+            System.out.print("\n");
+        }
     }
 
+    public double getLength() {
+        return length;
+    }
+
+    public void setLength(double length) {
+        this.length = length;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public void setWidth(double width) {
+        this.width = width;
+    }
 }

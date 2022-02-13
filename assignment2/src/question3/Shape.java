@@ -1,17 +1,16 @@
 package question3;
 
-import java.awt.Graphics;
 
-import javax.swing.JComponent;
-import javax.swing.JFrame;
-
-public class Shape extends JComponent{
+public class Shape {
     private String name;
     private double area;
     private double perimeter;
 
-    public Shape() {}
+    public Shape() {
 
-    public void display(Graphics g){
+    }
+
+    protected void display() {
+
     }
 }
