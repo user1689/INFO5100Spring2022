@@ -6,9 +6,6 @@ public class Shape {
     private int area;
     private int perimeter;
 
-    public Shape() {
-    }
-
     public Shape (String name, String color) {
         this.name = name;
         this.color = color;
@@ -19,15 +16,16 @@ public class Shape {
         this.area = area;
         this.perimeter = perimeter;
     }
-    public String printShape() {
-        return this.name;
+
+    public void printShape() {
+        System.out.println(this.name);
     }
 
-    public int getArea() {
+    public double getArea() {
         return this.area;
     }
 
-    public int getPerimeter() {
+    public double getPerimeter() {
         return this.perimeter;
     }
 
