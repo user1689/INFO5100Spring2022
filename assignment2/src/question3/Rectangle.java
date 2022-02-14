@@ -7,21 +7,25 @@ public class Rectangle extends Shape {
 
     public Rectangle() {}
 
-    public Rectangle(double length, double width) {
+    public Rectangle(double length, double width, String name) {
+        super(name);
         this.length = length;
         this.width = width;
     }
 
     public void computeArea() {
-        System.out.println("rectangle area is " + this.length * this.width);
+        this.area = this.length * this.width;
     }
 
     public void computePerimeter() {
-        System.out.println("rectangle perimeter is " + 2 * (this.length + this.width));
+        this.perimeter = 2 * (this.length + this.width);
     }
 
     @Override
     protected void display() {
+        System.out.println("This is " + this.getName() + " : its length is " + this.getLength() +" and its width is " + this.getWidth() );
+        System.out.println("Rectangle's area is: " + this.getArea());
+        System.out.println("Rectangle's perimeter is : " + this.getPerimeter());
         for (int i = 0; i < this.length; i++) {
             for (int j = 0; j < this.width; j++) {
                 System.out.print("*");

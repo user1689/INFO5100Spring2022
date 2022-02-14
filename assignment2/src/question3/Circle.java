@@ -7,20 +7,24 @@ public class Circle extends Shape{
     private double radius;
     public Circle() {}
 
-    public Circle(double radius) {
+    public Circle(double radius, String name) {
+        super(name);
         this.radius = radius;
     }
 
     public void computeArea() {
-        System.out.println("circle area is " + this.radius * this.radius * Math.PI);
+        this.area = this.radius * this.radius * Math.PI;
     }
 
     public void computePerimeter() {
-        System.out.println("circle perimeter is " + 2 * this.radius * Math.PI);
+        this.perimeter = 2 * this.radius * Math.PI;
     }
 
     @Override
     protected void display() {
+        System.out.println("This is " + this.getName() + " : its radius is " + this.getRadius());
+        System.out.println("Circle's area is: " + this.getArea());
+        System.out.println("Circle's perimeter is : " + this.getPerimeter());
         int r = (int)this.radius;
         for (int y = 0; y <= 2 * r; y += 2) {
             int x = (int)Math.round(r - Math.sqrt(2 * r * y - y * y));
