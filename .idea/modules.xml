@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/Class/LoopStatements/LoopStatements.iml" filepath="$PROJECT_DIR$/Class/LoopStatements/LoopStatements.iml" />
       <module fileurl="file://$PROJECT_DIR$/Quiz1/Quiz1.iml" filepath="$PROJECT_DIR$/Quiz1/Quiz1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Class/SimpleClassExample/SimpleClassExample.iml" filepath="$PROJECT_DIR$/Class/SimpleClassExample/SimpleClassExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleThread/SimpleThread.iml" filepath="$PROJECT_DIR$/SimpleThread/SimpleThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/assignment1/assignment1.iml" filepath="$PROJECT_DIR$/assignment1/assignment1.iml" />
       <module fileurl="file://$PROJECT_DIR$/assignment2/assignment2.iml" filepath="$PROJECT_DIR$/assignment2/assignment2.iml" />
     </modules>
