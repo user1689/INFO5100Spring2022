@@ -9,7 +9,7 @@ public class ThreadClass implements Runnable  {
             System.out.println("Printing in " + Thread.currentThread().getName() + " " + i);
         }
         try {
-            Thread.sleep(100);
+            Thread.sleep(200);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
