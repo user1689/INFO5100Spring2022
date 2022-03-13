@@ -21,6 +21,7 @@ public class Main {
         while (!q2.isEmpty()) {
             System.out.println(q2.remove());
         }
+        q1.remove();
     }
 
 }

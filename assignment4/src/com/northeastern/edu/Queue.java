@@ -23,6 +23,7 @@ public class Queue<T> {
             }
         }
         if (s2.isEmpty()) {
+            System.out.println("Queue is empty");
             return null;
         } else {
             return s2.pop();
@@ -36,6 +37,7 @@ public class Queue<T> {
             }
         }
         if (s2.isEmpty()) {
+            System.out.println("Queue is empty");
             return null;
         } else {
             return s2.peek();
