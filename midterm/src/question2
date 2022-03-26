@@ -9,6 +9,7 @@
  * 7. abstract class must write keyword "abstract" for method, but interface do not need it.
  * 8. abstract class is faster than interface.
  * 9. abstract class only can extend only one class, but interface can implement many interfaces.
- * 10 variable in abstract class can have different type, but the variable in interface only can have public static final.
- *
+ * 10. variable in abstract class can have different type, but the variable in interface only can have public static final.
+ * 11. abstract class have concrete method, but interface do not have it.
+ * 12. abstract class have data field, but interface do not have it.
  * */
