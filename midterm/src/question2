@@ -1,8 +1,8 @@
 /**
  * abstract class
  * 1. abstract class have constructor and destructor, but interface do not have it.
- * 2. abstract class can have access control in method, like protected, but all the method in interface need to be public.
- * 3. abstract class can be inherited only once, but a class can be inherited many interfaces.
+ * 2. abstract class can have different accessing control in method, like protected, but all the method in interface need to be public.
+ * 3. a class can inherit only one abstract class, but a class can inherited many interfaces.
  * 4. abstract class is good at default implement, but interface is not good at that, it is nightmare for interface.
  * 5. abstract class can be initialized, but interface can not.
  * 6. abstract class is used for avoiding independence, but interface is used for controlling signatures.
