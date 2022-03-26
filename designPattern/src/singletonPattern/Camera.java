@@ -25,3 +25,4 @@ public class Camera {
         Camera.cameraName = cameraName;
     }
 }
+

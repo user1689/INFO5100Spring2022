@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        Department software = new Department("software", 1);
+        // Department software = new Department("software", 1);
 
-        Employee sample = new Employee();
-        Employee Jack = new Employee(sample);
+        Professor sample = new Professor();
+        Professor Jack = new Professor(sample);
         Jack.setName("Jack");
-        Jack.setId(007);
+        Jack.setUid(007);
 
-        Employee Mark = new Employee(sample);
+        Professor Mark = new Professor(sample);
         Mark.setName("Mark");
-        Mark.setId(006);
+        Mark.setUid(006);
 
         Jack.printEmployeeInfo();
         Mark.printEmployeeInfo();

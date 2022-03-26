@@ -1,11 +1,37 @@
+//public class Department {
+//
+//    private String deptName;
+//    private int deptID;
+//
+//    public Department(String deptName, int deptID) {
+//        this.deptName = deptName;
+//        this.deptID = deptID;
+//    }
+//
+//    public String getDeptName() {
+//        return deptName;
+//    }
+//
+//    public void setDeptName(String deptName) {
+//        this.deptName = deptName;
+//    }
+//
+//    public int getDeptID() {
+//        return deptID;
+//    }
+//
+//    public void setDeptID(int deptID) {
+//        this.deptID = deptID;
+//    }
+//}
+
 public class Department {
-
     private String deptName;
-    private int deptID;
+    private int deptId;
 
-    public Department(String deptName, int deptID) {
+    public Department(String deptName, int deptId) {
         this.deptName = deptName;
-        this.deptID = deptID;
+        this.deptId = deptId;
     }
 
     public String getDeptName() {
@@ -16,11 +42,11 @@ public class Department {
         this.deptName = deptName;
     }
 
-    public int getDeptID() {
-        return deptID;
+    public int getDeptId() {
+        return deptId;
     }
 
-    public void setDeptID(int deptID) {
-        this.deptID = deptID;
+    public void setDeptId(int deptId) {
+        this.deptId = deptId;
     }
 }
