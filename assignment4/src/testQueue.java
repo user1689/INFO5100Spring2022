@@ -47,14 +47,14 @@ public class testQueue {
             thread.join();
         }
 
-        // test whether push and pop of thread is safe
+        // test whether push and pop of queue is safe
         if (q.isEmpty()) {
             System.out.println("queue is empty");
         } else {
             System.out.println("queue is not empty");
         }
 
-        // test whether peek of thread is safe
+        // test whether peek of queue is safe
         Thread consumer2 = new Thread(() -> {
             try {
                 int x = q.peek();
