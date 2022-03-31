@@ -9,6 +9,7 @@ public class Queue<T> {
     // the number of elements in queue
     private int count;
 
+    // Thread safe queue with blocking
     public Queue(int capacity) throws IllegalAccessException {
         if (capacity <= 0) {
             throw new IllegalAccessException();
