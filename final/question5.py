@@ -32,6 +32,6 @@ class solution:
         return quickSelection(0, len(nums) - 1)
     
 obj = solution()
-arr = [1,5,3,2,4,6,7]
+arr = [1,3,2,4,6,7]
 ans = obj.findKthLargest(arr, 3)
 print(ans)

@@ -1,5 +1,5 @@
 class solution:
-    def checkParenthesis(self, s):
+    def checkParenthesis(self, s:str) -> bool:
         stack = []
         for char in s:
             if (char == '(' or char == '[' or char == '{' ):

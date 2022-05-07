@@ -1,5 +1,5 @@
 class solution:
-    def compressString(self, s):
+    def compressString(self, s:str) -> str:
         i = 0
         j = 0
         res = ""
@@ -13,9 +13,9 @@ class solution:
             res += s[i]
             res += str(cnt)
             i = j 
-        return res if  len(res) < len(s) else s
+        return res if len(res) < len(s) else s
 
 obj = solution()
-s =  "ab"
+s =  "abcde"
 res = obj.compressString(s)
 print(res)

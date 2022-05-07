@@ -1,5 +1,8 @@
+from typing import List
+
+
 class solution:
-    def sumZero(sefl, n):
+    def sumZero(sefl, n: int) -> List[int]:
         if (n & 1):
             res = [0]
         else:
@@ -8,7 +11,7 @@ class solution:
             res.append(i)
             res.append(-i)
         return res
-        
+
 obj = solution()
 n = 12
 n2 = 3
